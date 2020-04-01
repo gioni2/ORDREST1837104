@@ -1,0 +1,96 @@
+.navbar-brand img{
+	width: 45px;
+	height: 45px;
+	left: 20px;
+}
+
+.navbar{
+	background-color:#404040;
+}
+
+
+.navbar-expand-lg a{
+	color: white;
+	font-family: Britannic Bold;
+}
+
+#salir{
+    position: absolute;
+	border-color: white;
+	background: transparent;
+	margin-left: 270%;
+	width: 150px;
+    border-radius: 10px;
+}
+#salir:hover{
+    position:absolute;
+	margin-left: 270%;
+	width: 150px;
+    background-color: #8A8A8A;
+}
+.nav-item{
+	width: 250px;
+	position: relative;
+}
+.nav-link{
+	background-color: #11376f;
+	position: relative;
+	left: 100px;
+	text-align: center;
+	border: 1px solid black;
+}
+.container-fluid h1{
+	font-size: 200%;
+	font-family: Britannic Bold;
+	text-align: center;
+	color: white;
+}
+.container-fluid p{
+	font-size:50%;
+	font-family: Britannic Bold;
+	text-align: center;
+	color: white;
+}
+#nom{
+background-color:#404040;
+	color: white;
+}
+
+.mar{
+	background-color: white;
+	border: 0px;
+}
+#but:hover{
+   background: #8A8A8A;
+   border-color: #8A8A8A;
+}
+#but{
+   background: transparent;
+   border-color: white;
+   color: white;
+}
+
+#registrar{
+    position:absolute;
+    border-color: white;
+	background: transparent;
+	margin-left: 300%;
+	width: 150px;
+	border-radius: 10px;
+}
+
+#registrar:hover{
+    position: absolute;
+	margin-left: 300%;
+	width: 150px;
+	background-color: #8A8A8A;
+}
+
+#exportar{
+    position:absolute;
+    border-color: white;
+	background: transparent;
+	margin-left: 3%;
+	width: 150px;
+	border-radius: 10px;
+}
