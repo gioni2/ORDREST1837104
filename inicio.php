@@ -47,7 +47,7 @@ if($_SESSION['administrador']){
 <!--#08A1FD;-->
 <div class="container-fluid" style="border: 2px solid black;background-color: #404040;border-radius: 10px;box-shadow: 0px 0px 10px black;">
 	<h1>Bienvenido administrador</h1>
-	<h1>Que tenga una buena semana</h1>
+	<h1>Qués tenga una buena semana</h1>
 </div>
 
     <!-- Optional JavaScript -->

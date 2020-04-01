@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-03-2020 a las 17:37:56
+-- Tiempo de generación: 01-04-2020 a las 08:34:29
 -- Versión del servidor: 10.4.6-MariaDB
 -- Versión de PHP: 7.3.9
 
@@ -40,6 +40,26 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`id`, `usuario`, `password`) VALUES
 (1, 'admin', '123456');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `adminn`
+--
+
+CREATE TABLE `adminn` (
+  `id` int(11) NOT NULL,
+  `email` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `token` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  `password` varchar(50) COLLATE utf8_spanish_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `adminn`
+--
+
+INSERT INTO `adminn` (`id`, `email`, `token`, `password`) VALUES
+(1, 'ordrest12@gmail.com', '5e849681371c7', '123');
 
 -- --------------------------------------------------------
 
