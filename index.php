@@ -48,14 +48,14 @@
         </button>
       </div>
       <div class="modal-body">
-       <form action="confirmar.php">
+       <form action="recuperar.php" method="POST">
        <label for="email" style="font-family: elefant;">Email</label>
-       <input type="text" name="email" placeholder="ingrese su Email">
+       <input type="text" name="email" placeholder="ingrese su Email" required>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 	  </div>
-	  <button type="submit" class="btn btn-primary">Enviar</button>
+	  <input type="submit" value="enviar" name="enviar" class="btn btn-primary"></input>
 </form>
     </div>
   </div>
