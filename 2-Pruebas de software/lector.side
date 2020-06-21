@@ -1,0 +1,78 @@
+{
+  "id": "7bfc9e24-2bf9-409e-8c3c-33eedae3be75",
+  "version": "2.0",
+  "name": "lector",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "e4083a84-8fa6-4d2e-8980-b877f79d87a5",
+    "name": "Untitled",
+    "commands": [{
+      "id": "eb24291a-7deb-42b5-8e41-3e160e0569b0",
+      "comment": "",
+      "command": "open",
+      "target": "/ordrest-4.5/lector.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "809e9069-ecc7-4664-90d0-76646ddb70d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4de0ccd-7ce6-41bf-be62-eae77ef86588",
+      "comment": "",
+      "command": "click",
+      "target": "name=carnet",
+      "targets": [
+        ["name=carnet", "name"],
+        ["css=.pe", "css:finder"],
+        ["xpath=//input[@name='carnet']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0723f38c-bce3-4b82-b80e-0f047cfa0852",
+      "comment": "",
+      "command": "type",
+      "target": "name=carnet",
+      "targets": [
+        ["name=carnet", "name"],
+        ["css=.pe", "css:finder"],
+        ["xpath=//input[@name='carnet']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3175323898"
+    }, {
+      "id": "d92441d5-22c8-4125-b018-f065fe409d7b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=carnet",
+      "targets": [
+        ["name=carnet", "name"],
+        ["css=.pe", "css:finder"],
+        ["xpath=//input[@name='carnet']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "15602bc6-192b-4d21-87ca-4d26c7ce0a2e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51ee8cd7-a41d-4569-ae46-c01b2bee3f39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4083a84-8fa6-4d2e-8980-b877f79d87a5"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}

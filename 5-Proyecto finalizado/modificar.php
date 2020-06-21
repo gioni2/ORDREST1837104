@@ -14,7 +14,7 @@ if($_SESSION['administrador']){
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/estiloregistro.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloregis.css">
     <link rel="shortcut icon"  href="img/ORDREST1.png">
     <title>ORDREST</title>
   </head>

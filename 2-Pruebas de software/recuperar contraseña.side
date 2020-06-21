@@ -1,0 +1,95 @@
+{
+  "id": "694eff78-894e-4e5e-9358-090b38502713",
+  "version": "2.0",
+  "name": "recuperar contraseña",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "5ebbb099-160a-45c7-b3af-553e71129182",
+    "name": "Untitled",
+    "commands": [{
+      "id": "55f73dee-f770-4efa-97f1-54b7217093f8",
+      "comment": "",
+      "command": "open",
+      "target": "/ordrest-4.5/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a624594e-47f6-4489-b1a6-c88174ebd6b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca4963b6-3661-46f3-9b2a-4e5e3e1a0650",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton2",
+      "targets": [
+        ["id=boton2", "id"],
+        ["css=#boton2", "css:finder"],
+        ["xpath=//button[@id='boton2']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'¿olvidaste contraseña?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a9151b5-4ddd-4832-8f08-1a30f80b8a92",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-modal']/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a53efad-bdf1-4f92-ab02-0f3001bfb5a0",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=form:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-modal']/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input", "xpath:position"]
+      ],
+      "value": "ordrest12@gmail.com"
+    }, {
+      "id": "29e8a8af-d9f4-42f9-9528-880c06203f73",
+      "comment": "",
+      "command": "click",
+      "target": "name=enviar",
+      "targets": [
+        ["name=enviar", "name"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-modal']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3b3460-1b8c-4445-819b-a236b73502b7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "15c1f3db-65f0-4b13-b582-32b28ff94101",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ebbb099-160a-45c7-b3af-553e71129182"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
