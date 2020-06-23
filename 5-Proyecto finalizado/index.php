@@ -53,9 +53,10 @@
        <input type="text" name="email" placeholder="ingrese su Email" required>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+       
+        <input type="submit" value="enviar" name="enviar" class="btn btn-primary"></input>
 	  </div>
-	  <input type="submit" value="enviar" name="enviar" class="btn btn-primary"></input>
+	  
 </form>
     </div>
   </div>
