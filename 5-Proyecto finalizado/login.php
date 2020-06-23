@@ -4,7 +4,7 @@ include ('php/conexion.php');
 $nombre = $_POST['nombre'];
 $pass = $_POST['contra'];
 
-$query = mysqli_query($conexion,"SELECT * FROM admin WHERE `usuario` = '$nombre' AND `password` = '$pass'");
+$query = mysqli_query($conexion,"SELECT * FROM adminn WHERE `email` = '$nombre' AND `password` = '$pass'");
 $nr = mysqli_num_rows($query);
 if ($nr == 1) {
 	session_start();

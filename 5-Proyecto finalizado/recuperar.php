@@ -42,7 +42,7 @@ if(isset($_POST['enviar'])){
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = "Recuperar Clave";
         $mail->Body    = "Hola " . $row['email'] . " , haz solictado cambiar tu contraseña, ingresa al siguiente link\n\n";
-        $mail->Body .= "http://localhost/ordrest-4.5/nuevaClave.php?user=".$row['email']."&token=".$token."\n\n";
+        $mail->Body .= "http://localhost:8080/ordrest-4.5/nuevaClave.php?user=".$row['email']."&token=".$token."\n\n";
         $mail->CharSet = 'utf-8';
         $mail->send();
         

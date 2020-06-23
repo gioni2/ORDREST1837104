@@ -36,7 +36,7 @@
 
                 if($act){
                     echo "<script>alert('Se ha actualizado tu contraseña, ya puedes iniciar sesión');</script>";
-                    header("Refresh: 0, URL=http://localhost/ordrest-4.5/index.php");
+                    header("Refresh: 0, URL=http://localhost:8080/ordrest-4.5/index.php");
                 }
             }
         ?>

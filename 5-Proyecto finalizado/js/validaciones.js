@@ -1,5 +1,5 @@
 function SoloNumeros(elEvento){
-	var permitidos = "0123456789.,";
+	var permitidos = "0123456789., ";
 	var teclas_espaciales = [8, 37,39,3,13];
 	var evento = elEvento || window.event;
 	var codigoCaracter = evento.charCode || evento.KeyCode;
@@ -23,7 +23,7 @@ break;
 
 
 function SoloLetras(elEvento){
-	var permitidos = "abcdefghijklmnñopkqrstuvwxyzABCDEFGHIJKLMNÑOPKRSTUVWYZ.,";
+	var permitidos = "abcdefghijklmnñopkqrstuvwxyzABCDEFGHIJKLMNÑOPKRSTUVWYZ., ";
 	var teclas_espaciales = [8, 37,39,3,13];
 	var evento = elEvento || window.event;
 	var codigoCaracter = evento.charCode || evento.KeyCode;
