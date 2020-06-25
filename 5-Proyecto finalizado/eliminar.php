@@ -1,3 +1,4 @@
+<!-- código para eliminar estudiantes-->
 <?php
 echo"<head><link rel='shortcut icon'  href='img/ORDREST1.png'></head>";
 include("php/conexion.php");

@@ -1,3 +1,4 @@
+<!-- código para buscar estudiantes-->
 <?php
 include ('php/conexion.php');
     $salida = "";

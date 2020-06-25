@@ -19,6 +19,7 @@ if($_SESSION['administrador']){
     <link rel="shortcut icon"  href="img/ORDREST1.png">
     <title>ORDREST</title>
   </head>
+  <!-- cuerpo de la página estudiantes-->
   <body style="background-color: #eee ">
   <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>

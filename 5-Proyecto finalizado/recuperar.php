@@ -1,3 +1,5 @@
+<!-- código para enviar correo de cambio de contraseña al correo del administrador-->
+
 <?php
 
 use PHPMailer\PHPMailer\Exception;

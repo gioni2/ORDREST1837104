@@ -18,7 +18,7 @@ if($_SESSION['administrador']){
     <title>ORDREST</title>
   </head>
   <body style="background-color: #eee">
-
+  <!-- barra de navegación -->
   <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,7 @@ if($_SESSION['administrador']){
 <a class="nav-link justify-item-end" href='pdf.php' id="exportar" style='color: white;background-color:green;'>exportar</a>
 </li>
 <br><br><br><br>
+<!-- listado de estudiante-->
 <form>
 <table class="table table-bordered" style="background-color: white;">
   <thead>
@@ -52,6 +53,7 @@ if($_SESSION['administrador']){
       <th scope="col" id="nom">Asistio</th>
       <th scope="col" id="nom">fecha y hora</th>
     </tr>
+<!--query para mostrar los estudiantes registrados-->
     <?php
 $query="SELECT e.documento, e.carnet_e, e.nombre_e, e.apellido1, e.apellido2, e.grado, e.grupo, e.aula_e, e.jornada, a.verificar_asistencia, a.fecha from estudiantes e
 inner join asistencia a on e.documento = a.docu_estudiante ORDER By jornada;";

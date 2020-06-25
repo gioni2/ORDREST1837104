@@ -1,3 +1,4 @@
+<!-- código para actualizar datos de los estudiantes-->
 <?php
 include ("php/conexion.php");
 echo"<head><link rel='shortcut icon'  href='img/ORDREST1.png'></head>";

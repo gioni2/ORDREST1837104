@@ -18,6 +18,7 @@ if($_SESSION['administrador']){
     <link rel="shortcut icon"  href="img/ORDREST1.png">
     <title>ORDREST</title>
   </head>
+  <!-- cuerpo de la página horario-->
 <body style="background-color: #eee">
 <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>
@@ -33,6 +34,7 @@ if($_SESSION['administrador']){
   </div>
 </nav>
 <center>
+<!-- formulario ingresar hora de apertuda de restaurante-->
 <form  class="contenedor" action="rehora.php" method="post" style="position:absolute;background-color:#404040;width:550px;height:300px;top:20%;left:30%;color:white;">
 	<h1>Horario del almuerzo</h1><br>
   <label >Hora inicio</label><br>

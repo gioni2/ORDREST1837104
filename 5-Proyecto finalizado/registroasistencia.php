@@ -1,3 +1,4 @@
+<!-- código para registar la asistencia del estudiante por medio del lector-->
 <?php
 error_reporting(0);
 include "php/conexion.php";

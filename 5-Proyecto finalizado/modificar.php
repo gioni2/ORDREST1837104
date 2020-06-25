@@ -55,7 +55,7 @@ $query="SELECT * FROM estudiantes WHERE documento='$id'";
 $resultado=$conexion->query($query);
 $row=$resultado->fetch_assoc();  
 ?>
-
+<!-- formulario para modificar datos del estudiante-->
 <form  action="modificar_proceso.php?id=<?php echo $row['documento']?>" method="post"style="position:absolute;background-color:#404040;width:550px;height:390px;top:20%;left:30%;">
 <h1>actualizar datos</h1>
 <div style="position:absolute;left:10%;">
@@ -94,6 +94,7 @@ $row=$resultado->fetch_assoc();
 <option value="mañana">mañana</option>
 </select>
 </div>
+<!-- botón para actualiar los datos ingresados-->
 <div style="position:absolute;left:40%;top:83%;">
   <button class="btn btn-primary" type="submit" style="position:relative;left:10px;border:1px solid white;top: 4px;background-color: blue;">actualizar</button>
 </div>

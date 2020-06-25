@@ -1,3 +1,5 @@
+<!-- código para ingresar hora de apertura y cierre del restaurante escolar-->
+
 <?php
 include "php/conexion.php";
 $inicio=$_POST['inicio'];

@@ -1,3 +1,4 @@
+<!-- código para verificar el usuario y contraseña-->
 <?php
 include ('php/conexion.php');
 

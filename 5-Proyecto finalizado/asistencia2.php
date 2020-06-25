@@ -11,6 +11,7 @@
     <link rel="shortcut icon"  href="img/ORDREST1.png">
     <title>ORDREST</title>
   </head>
+  <!-- cuerpo de pagina asistencia -->
   <body style="background-color: #eee ">
   <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>
@@ -25,6 +26,7 @@
       </li>
 </ul>
   </div>
+  <!-- apartado buscar -->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
     <div class="formulario" style="position:absolute;left:30%;top:30%;">

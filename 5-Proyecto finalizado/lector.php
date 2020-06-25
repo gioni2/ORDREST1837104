@@ -11,6 +11,7 @@
     <script text="text/js" src="js/validaciones.js"> </script>
     <title>ORDREST</title>
 </head>
+<!-- cuerpo de la página lector-->
 <body style="background-color: #eee">
 <h1>Registro de asistencia</h1>
 <form class="container"action="registroasistencia.php" method="post" >

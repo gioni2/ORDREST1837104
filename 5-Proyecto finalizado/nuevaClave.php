@@ -8,6 +8,7 @@
         <link rel="icon" href="" />
     </head>
     <body>
+    <!-- código para enviar correo de cambio de contraseña-->
         <?php if(isset($_GET['user']) && isset($_GET['token'])){
 
             require_once 'php/conexion.php';
@@ -46,6 +47,7 @@
                 <h2>ordrest</h2>
             </section>
         </section>
+        <!-- formulario de actualización de contraseña-->
             <form action="" method="POST" class="form_contact" onsubmit="return validarClave();">
                 <h2>Recuperar Contraseña</h2>
                 <div class="user_info">

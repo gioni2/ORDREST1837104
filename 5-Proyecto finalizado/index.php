@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilologin.css">
 	<title>INICIO DE SESION</title>
 </head>
+<!-- pagina de inicio-->
 <body style="background-color: #eee">
 <div class="model-dialog text-center" id="contenedor">
 	<div class="col-sm-5 main-selection">
@@ -16,6 +17,7 @@
 			<div class="col-12 user-img">
 				<img src="img/usuario.png">
 			</div>
+      <!-- formulario inicio de sesión-->
 			<form class="col-5 " action="login.php" method="post">
 				<div class="form-group" id="conta">
 					<label for="user" style="font-family: elefant;">Usuario</label>
@@ -29,6 +31,7 @@
 				</div>
                 <input  type="submit" class="btn btn-primary" id="boton" value="ingresar">
 			</form>
+      <!-- boton para desplegar el modal de recuperar contraseña-->
 			<div class="col-12 forgot">
 <button class="btn" data-toggle="modal" data-target="#staticBackdrop" id="boton2">
   ¿olvidaste contraseña?
@@ -37,7 +40,7 @@
 </div>
 </div>
 </div>
-
+<!-- modal de recuperar contraseña-->
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content" id="contenedor-modal">

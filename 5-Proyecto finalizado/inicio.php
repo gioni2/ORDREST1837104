@@ -18,12 +18,14 @@ if($_SESSION['administrador']){
     <link rel="shortcut icon"  href="img/ORDREST1.png">
     <title>ORDREST</title>
   </head>
+  <!-- código para buscar estudiantes-->
   <body style="background-color: #eee">
     <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <!-- barra de navegacion de la página -->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -44,7 +46,7 @@ if($_SESSION['administrador']){
     </ul>
   </div>
 </nav>
-<!--#08A1FD;-->
+<!-- saludo al administrador -->
 <div class="container-fluid" style="border: 2px solid black;background-color: #404040;border-radius: 10px;box-shadow: 0px 0px 10px black;">
 	<h1>Bienvenido administrador,</h1>
 	<h1>Que tenga una buena semana</h1>

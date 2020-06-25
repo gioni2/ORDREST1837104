@@ -33,6 +33,8 @@ label{
 }
 
 </style>
+<!-- barra de navegación-->
+
     <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="img/ORDREST1.png">ORDREST</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +51,7 @@ label{
     </ul>
   </div>
 </nav>
+<!-- formulario para registrar estudiantes-->
 
 <form  class="contenedor" action="insertar.php" method="post" style="position:absolute;background-color:#404040;width:550px;height:390px;top:20%;left:30%;">
 <h1>Registro</h1>

@@ -1,3 +1,4 @@
+<!-- código para exportar la toma de asistencia a un archivo ecel-->
 <?php
 include ('php/conexion.php');
 
